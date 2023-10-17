@@ -47,11 +47,11 @@
           },
           "name" : "CombineCocoa",
           "destinations" : [
-            "macWithiPadDesign",
             "iPad",
             "appleVisionWithiPadDesign",
-            "iPhone",
-            "macCatalyst"
+            "macWithiPadDesign",
+            "macCatalyst",
+            "iPhone"
           ],
           "settings" : {
             "base" : {
@@ -80,14 +80,14 @@
                   "_0" : "NO"
                 }
               },
-              "GCC_NO_COMMON_BLOCKS" : {
-                "string" : {
-                  "_0" : "NO"
-                }
-              },
               "ALWAYS_SEARCH_USER_PATHS" : {
                 "string" : {
                   "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
                 }
               },
               "HEADER_SEARCH_PATHS" : {
@@ -127,8 +127,8 @@
             },
             "configurations" : [
               {
-                "name" : "Debug",
-                "variant" : "debug"
+                "name" : "Release",
+                "variant" : "release"
               },
               {
                 "settings" : {
@@ -136,8 +136,8 @@
                 }
               },
               {
-                "name" : "Release",
-                "variant" : "release"
+                "name" : "Debug",
+                "variant" : "debug"
               },
               {
                 "settings" : {
@@ -161,61 +161,7 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIBarButtonItem+Combine.swift"
-            },
-            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIStepper+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/NSTextStorage+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISegmentedControl+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/AnimatedAssignSubscriber.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/DelegateProxy\/DelegateProxyType.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/CombineControlEvent.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/CombineControlTarget.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/CombineControlProperty.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIButton+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UITextField+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISwitch+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIControl+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIGestureRecognizer+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UICollectionView+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISearchBar+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIRefreshControl+Combine.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/DelegateProxy\/DelegateProxyPublisher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UITableView+Combine.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISlider+Combine.swift"
@@ -224,16 +170,70 @@
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIScrollView+Combine.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIDatePicker+Combine.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/AnimatedAssignSubscriber.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/NSTextStorage+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIGestureRecognizer+Combine.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UITextView+Combine.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIPageControl+Combine.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/CombineControlProperty.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISearchBar+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISegmentedControl+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UITableView+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIButton+Combine.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/DelegateProxy\/DelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIPageControl+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UITextField+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIBarButtonItem+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIRefreshControl+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/DelegateProxy\/DelegateProxyPublisher.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UISwitch+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UICollectionView+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/CombineControlEvent.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/CombineControlTarget.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIControl+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/Controls\/UIDatePicker+Combine.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa\/Sources\/CombineCocoa\/DelegateProxy\/DelegateProxyType.swift"
             }
           ],
           "resources" : [
@@ -286,11 +286,11 @@
           },
           "name" : "Runtime",
           "destinations" : [
-            "iPad",
-            "appleVisionWithiPadDesign",
-            "macWithiPadDesign",
             "macCatalyst",
-            "iPhone"
+            "iPhone",
+            "appleVisionWithiPadDesign",
+            "iPad",
+            "macWithiPadDesign"
           ],
           "settings" : {
             "base" : {
@@ -488,8 +488,8 @@
           },
           "parser" : "strings",
           "extensions" : [
-            "strings",
-            "stringsdict"
+            "stringsdict",
+            "strings"
           ]
         },
         {
@@ -523,8 +523,8 @@
           "parser" : "fonts",
           "extensions" : [
             "otf",
-            "ttf",
-            "ttc"
+            "ttc",
+            "ttf"
           ]
         }
       ],
@@ -577,11 +577,11 @@
           },
           "name" : "SnapKit",
           "destinations" : [
-            "macWithiPadDesign",
-            "macCatalyst",
-            "iPad",
             "iPhone",
-            "appleVisionWithiPadDesign"
+            "macCatalyst",
+            "appleVisionWithiPadDesign",
+            "iPad",
+            "macWithiPadDesign"
           ],
           "settings" : {
             "base" : {
@@ -590,12 +590,12 @@
                   "_0" : "$(inherited) SWIFT_PACKAGE"
                 }
               },
-              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "YES"
                 }
               },
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
                 "string" : {
                   "_0" : "NO"
                 }
@@ -605,12 +605,9 @@
                   "_0" : "YES"
                 }
               },
-              "GCC_PREPROCESSOR_DEFINITIONS" : {
-                "array" : {
-                  "_0" : [
-                    "$(inherited)",
-                    "SWIFT_PACKAGE=1"
-                  ]
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
                 }
               },
               "GCC_NO_COMMON_BLOCKS" : {
@@ -641,9 +638,12 @@
                   "_0" : "NO"
                 }
               },
-              "ALWAYS_SEARCH_USER_PATHS" : {
-                "string" : {
-                  "_0" : "YES"
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
                 }
               }
             },
@@ -683,67 +683,31 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsetTarget.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDSL.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMultiplierTarget.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraint.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConfig.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintViewDSL.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsetTarget.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMaker.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDSL.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/UILayoutSupport+Extensions.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsets.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraint.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDescription.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsetTarget.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraintItem.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide+Extensions.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerFinalizable.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriority.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerPrioritizable.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuideDSL.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupportDSL.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConstantTarget.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintItem.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintAttributes.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsets.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView+Extensions.swift"
@@ -752,46 +716,82 @@
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelatableTarget.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Typealiases.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Constraint.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupport.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsets.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriorityTarget.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Debugging.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintOffsetTarget.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsets.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintViewDSL.swift"
-            },
-            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelation.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerEditable.swift"
             },
             {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerPrioritizable.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriority.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriorityTarget.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConstantTarget.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConfig.swift"
+            },
+            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable+Extensions.swift"
             },
             {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerFinalizable.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintAttributes.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/UILayoutSupport+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintOffsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuideDSL.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Constraint.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMaker.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupportDSL.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMultiplierTarget.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDescription.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupport.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Typealiases.swift"
+            },
+            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerExtendable.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Debugging.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide+Extensions.swift"
             }
           ],
           "resources" : [
@@ -832,8 +832,8 @@
         },
         "configurations" : [
           {
-            "name" : "Release",
-            "variant" : "release"
+            "name" : "Debug",
+            "variant" : "debug"
           },
           {
             "settings" : {
@@ -841,8 +841,8 @@
             }
           },
           {
-            "name" : "Debug",
-            "variant" : "debug"
+            "name" : "Release",
+            "variant" : "release"
           },
           {
             "settings" : {
@@ -968,13 +968,18 @@
           "name" : "Kingfisher",
           "destinations" : [
             "macCatalyst",
+            "iPhone",
             "appleVisionWithiPadDesign",
             "macWithiPadDesign",
-            "iPhone",
             "iPad"
           ],
           "settings" : {
             "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
               "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
                 "string" : {
                   "_0" : "$(inherited) SWIFT_PACKAGE"
@@ -985,9 +990,9 @@
                   "_0" : "NO"
                 }
               },
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "YES"
                 }
               },
               "FRAMEWORK_SEARCH_PATHS" : {
@@ -996,11 +1001,6 @@
                     "$(inherited)",
                     "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
                   ]
-                }
-              },
-              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
-                "string" : {
-                  "_0" : "YES"
                 }
               },
               "USE_HEADERMAP" : {
@@ -1013,9 +1013,9 @@
                   "_0" : "NO"
                 }
               },
-              "ALWAYS_SEARCH_USER_PATHS" : {
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
                 "string" : {
-                  "_0" : "YES"
+                  "_0" : "NO"
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -1039,8 +1039,8 @@
             },
             "configurations" : [
               {
-                "name" : "Release",
-                "variant" : "release"
+                "name" : "Debug",
+                "variant" : "debug"
               },
               {
                 "settings" : {
@@ -1048,8 +1048,8 @@
                 }
               },
               {
-                "name" : "Debug",
-                "variant" : "debug"
+                "name" : "Release",
+                "variant" : "release"
               },
               {
                 "settings" : {
@@ -1073,19 +1073,139 @@
           },
           "sources" : [
             {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KF.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/CacheSerializer.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDownloaderDelegate.swift"
+            },
+            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RedirectHandler.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageModifier.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RequestModifier.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KFOptionsSetter.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/FormatIndicatedCacheSerializer.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/String+MD5.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Views\/Indicator.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageDrawing.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageProcessor.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/ImageCache.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageProtocol.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/AuthenticationChallengeResponsable.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Box.swift"
             },
             {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Delegate.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageModifier.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/AVAssetImageDataProvider.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Runtime.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/DiskStorage.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/WKInterfaceImage+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageRenderer.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/TVMonogramView+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/UIButton+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageFormat.swift"
+            },
+            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/ExtensionHelpers.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Views\/Indicator.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherError.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/Resource.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageProgressive.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/Storage.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/ImageDataProvider.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDownloader.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RetryStrategy.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Image.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFAnimatedImage.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImage.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDataProcessor.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/NSButton+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherOptionsInfo.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/SessionDataTask.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/GraphicsContext.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/CallbackQueue.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/ImageBinder.swift"
+            },
+            {
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/MemoryStorage.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageOptions.swift"
@@ -1094,166 +1214,46 @@
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDownloaderDelegate.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Result.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/CallbackQueue.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/Source.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/SessionDataTask.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/FormatIndicatedCacheSerializer.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/TVMonogramView+Kingfisher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFAnimatedImage.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/GIFAnimatedImage.swift"
-            },
-            {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherManager.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/NSTextAttachment+Kingfisher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageProcessor.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/ImageDataProvider.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImagePrefetcher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImage.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/String+MD5.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDownloader.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/ImageBinder.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDataProcessor.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/AVAssetImageDataProvider.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageProtocol.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/CacheSerializer.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/NSButton+Kingfisher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/AuthenticationChallengeResponsable.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/WKInterfaceImage+Kingfisher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/Kingfisher.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/SizeExtensions.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/DiskStorage.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Image.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KFOptionsSetter.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageProgressive.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/SessionDelegate.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/GraphicsContext.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/ImageContext.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/ImageView+Kingfisher.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherOptionsInfo.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KF.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageDrawing.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Placeholder.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Runtime.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/ImageCache.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/CPListItem+Kingfisher.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Filter.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/UIButton+Kingfisher.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/Source.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/CPListItem+Kingfisher.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImagePrefetcher.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageFormat.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/ImageContext.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/MemoryStorage.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/SizeExtensions.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RetryStrategy.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/SessionDelegate.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/Storage.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Result.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/Resource.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/NSTextAttachment+Kingfisher.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Delegate.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherError.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/GIFAnimatedImage.swift"
             },
             {
               "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageTransition.swift"
             },
             {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RequestModifier.swift"
-            },
-            {
-              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageRenderer.swift"
+              "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Placeholder.swift"
             }
           ],
           "resources" : [
@@ -1402,19 +1402,19 @@
           }
         }
       ],
-      "CombineCocoa" : [
-        {
-          "project" : {
-            "target" : "CombineCocoa",
-            "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa"
-          }
-        }
-      ],
       "SnapKit-Dynamic" : [
         {
           "project" : {
             "target" : "SnapKit",
             "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+          }
+        }
+      ],
+      "CombineCocoa" : [
+        {
+          "project" : {
+            "target" : "CombineCocoa",
+            "path" : "\/Users\/kimyewon\/Desktop\/portfolio\/AppStore-mock-coding\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/CombineCocoa"
           }
         }
       ]
