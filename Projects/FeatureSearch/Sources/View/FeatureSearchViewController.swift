@@ -141,7 +141,6 @@ public class FeatureSearchViewController: UIViewController {
             case .failure(let error): print(error)
             }
         } receiveValue: { [weak self] value in
-            self?.resultViewModel.searchResults += value.results ?? []
             self?.resultController.reloadResultSnapshot(searchResult: self?.resultViewModel.searchResults.compactMap { DataSourceItem.searchResult($0) } ?? [])
         }.store(in: &cancellabels)
         

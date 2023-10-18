@@ -11,4 +11,8 @@ import Foundation
 public struct History: Hashable {
     public var title: String
     private let uid: String = UUID().uuidString
+    
+    public init(title: String) {
+        self.title = title
+    }
 }

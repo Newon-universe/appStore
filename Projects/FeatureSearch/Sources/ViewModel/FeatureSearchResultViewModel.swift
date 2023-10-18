@@ -25,13 +25,27 @@ public final class FeatureSearchResultViewModel: ObservableObject {
         let searchResultPublisher: AnyPublisher<String, Never>
         let searchCancelPublisher: AnyPublisher<Void, Never>
         let userButtonTapPublisher: AnyPublisher<Void, Never>
+        
+        public init(searchHistoryPublisher: AnyPublisher<String, Never>, searchResultPublisher: AnyPublisher<String, Never>, searchCancelPublisher: AnyPublisher<Void, Never>, userButtonTapPublisher: AnyPublisher<Void, Never>) {
+            self.searchHistoryPublisher = searchHistoryPublisher
+            self.searchResultPublisher = searchResultPublisher
+            self.searchCancelPublisher = searchCancelPublisher
+            self.userButtonTapPublisher = userButtonTapPublisher
+        }
     }
     
     public struct Output {
-        let historyPublisher: AnyPublisher<[DataSourceItem], Never>
-        let fetchAppPublisher: AnyPublisher<iTuensDataResponseModel, NetworkServiceError>
-        let cancelPublisher: AnyPublisher<Void, Never>
-        let userPublisher: AnyPublisher<Void, Never>
+        public let historyPublisher: AnyPublisher<[DataSourceItem], Never>
+        public let fetchAppPublisher: AnyPublisher<iTuensDataResponseModel, NetworkServiceError>
+        public let cancelPublisher: AnyPublisher<Void, Never>
+        public let userPublisher: AnyPublisher<Void, Never>
+        
+        public init(historyPublisher: AnyPublisher<[DataSourceItem], Never>, fetchAppPublisher: AnyPublisher<iTuensDataResponseModel, NetworkServiceError>, cancelPublisher: AnyPublisher<Void, Never>, userPublisher: AnyPublisher<Void, Never>) {
+            self.historyPublisher = historyPublisher
+            self.fetchAppPublisher = fetchAppPublisher
+            self.cancelPublisher = cancelPublisher
+            self.userPublisher = userPublisher
+        }
     }
     
     private var cancellabels = Set<AnyCancellable>()
@@ -57,7 +71,7 @@ public final class FeatureSearchResultViewModel: ObservableObject {
     }
     
     
-    init(searchResults: iTuensDataResponseModel) {
+    public init(searchResults: iTuensDataResponseModel) {
         self.searchResults = searchResults.results ?? []
         
         if UserDefaults.standard.array(forKey: UserDefaultsKeys.searchHistory.rawValue) as? [String] ?? [String]() == [String]() {
@@ -67,7 +81,7 @@ public final class FeatureSearchResultViewModel: ObservableObject {
         }
     }
     
-    func transform(input: Input) -> Output {
+    public func transform(input: Input) -> Output {
         
         let searchHistoryPublisher = input.searchHistoryPublisher
             .flatMap { [unowned self] searchText in
@@ -88,6 +102,7 @@ public final class FeatureSearchResultViewModel: ObservableObject {
                             switch data {
                             case .success(let response):
                                 self.histories = [term]
+                                self.searchResults += response.results ?? []
                                 promise(.success(response))
                             case .failure(let error):
                                 promise(.failure(error))
